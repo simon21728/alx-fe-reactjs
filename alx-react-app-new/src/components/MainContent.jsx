@@ -1,24 +1,15 @@
 import React from "react";
-import UserProfile from "./UserProfile";
 
 function MainContent() {
   return (
     <main
       style={{
-        padding: "20px",
-        backgroundColor: "#eef2f7",
-        minHeight: "300px",
+        padding: "10px",
+        backgroundColor: "#f0f0f0",
       }}
     >
-      <h2 style={{ textAlign: "center", color: "#222" }}>
-        User Profiles
-      </h2>
-
-      <UserProfile
-        name="Sewmehon Bayu"
-        age={22}
-        bio="Electrical & Computer Engineering Student"
-      />
+      <h2>Main Content</h2>
+      <p>I love to visit New York, Paris, and Tokyo.</p>
     </main>
   );
 }
