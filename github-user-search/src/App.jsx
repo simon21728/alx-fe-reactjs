@@ -1,7 +1,9 @@
+import Header from "./components/Header";
+
 function App() {
   return (
     <div style={{ padding: "20px" }}>
-      <h1>GitHub User Search</h1>
+      <Header />
       <p>Project setup completed successfully 🚀</p>
     </div>
   );
