@@ -9,7 +9,7 @@ function App() {
       
       <Search />
 
-      <p>Project setup completed successfully 🚀</p>
+      <p>Project setup completed successfully </p>
     </div>
   );
 }
